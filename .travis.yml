@@ -1,0 +1,16 @@
+language: java
+before_script: cd 12f_app
+script: mvn clean install
+deploy:
+  edge: true
+  provider: cloudfoundry
+  username: Jim.Fowler@sas.com 
+  password:   secure: "tIfkGTOvqeryL+aCvBVJVUUC3P9jdOaDxC0p9CvSyWfrq9ntnxBJkqnEpH6ngSHOiQGZWc/4DBEPXUcMPZEGInr0w7AGgxaxae+QsJ2z2FOQIHZo1TkQOkD2A
+7Bcd316e2NkNuafH1naFoYXDeXwTTg1Th52e37Iua+pT24r050lQhza1SfA9bLCTmfX2fX53D6huiEm8CEjRe+14N2Y9OLHyA64kWG7GNzJjGDOJ1HZpjMGp+wazYehwb/A+
+4gSwtGY+1E55T1vbT86P91UYv3o6wtkKiRi6qrtq4PHrVEbrVN8G0HH8JDaT4gjuNjaekePZihcpdkHKzI/rBvY3PXZXzASoJXZHZ/QlTzue/clHog/HEupG2FZd5Dj1N4lO
+41GZJUItg+9gOlAYTmNWCuH9o3sGEH3kjLKHoS3vc/nq7aKRkSiE6ztYMscyAE0lqvf7xGo3e4nzFYjzZhvyyfFeEaYHshMx/bmFKO2ZYqykjb/h+ldJ1BYKUU1rC7uALyKm
+OD0O7VXTfgi6g25ZtpCTMruSoWFlx+YbjA5zcLYaYKComp8xtVrhNFR3JuMh712qGkpbEn9CVfSutq5AmVsjorR15PwaXwhiDcMoFrA+OCmEiPPE2A3/4yZPZOSNj59QExmg
+1NxRSoIwtJTMjMoXUBTpKzdg+7hxFuwkAI="
+  api: https://api.run.pivotal.io
+  organization: jafowl-org
+  space: development

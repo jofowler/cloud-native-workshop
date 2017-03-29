@@ -1,0 +1,728 @@
+Connected, dumping recent logs for app jof12fapp in org jafowl-org / space development as Jim.Fowler@sas.com...
+
+2017-03-29T11:03:16.85-0400 [API/7]      OUT Created app with guid a4c2e9de-2ecb-4110-9ac5-5f77ac5e8f0c
+2017-03-29T11:03:35.69-0400 [API/3]      OUT Updated app with guid a4c2e9de-2ecb-4110-9ac5-5f77ac5e8f0c ({"state"=>"STARTED"})
+2017-03-29T11:03:36.13-0400 [STG/0]      OUT Downloading binary_buildpack...
+2017-03-29T11:03:36.13-0400 [STG/0]      OUT Downloading nodejs_buildpack...
+2017-03-29T11:03:36.13-0400 [STG/0]      OUT Downloading go_buildpack...
+2017-03-29T11:03:36.14-0400 [STG/0]      OUT Downloading java_buildpack...
+2017-03-29T11:03:36.18-0400 [STG/0]      OUT Downloading staticfile_buildpack...
+2017-03-29T11:03:36.19-0400 [STG/0]      OUT Downloaded java_buildpack
+2017-03-29T11:03:36.19-0400 [STG/0]      OUT Downloaded go_buildpack
+2017-03-29T11:03:36.19-0400 [STG/0]      OUT Downloading ruby_buildpack...
+2017-03-29T11:03:36.19-0400 [STG/0]      OUT Downloading dotnet_core_buildpack_beta...
+2017-03-29T11:03:36.21-0400 [STG/0]      OUT Downloaded php_buildpack
+2017-03-29T11:03:36.24-0400 [STG/0]      OUT Creating container
+2017-03-29T11:03:37.36-0400 [STG/0]      OUT Downloaded app package (12.2M)
+2017-03-29T11:03:39.89-0400 [STG/0]      OUT -----> Downloading Open Jdk JRE 1.8.0_121 from https://java-buildpack.cloudfoundry.org/openjdk/trusty/x86_64/openjdk-1.8.0_121.tar.gz (found in cache)
+2017-03-29T11:03:41.08-0400 [STG/0]      OUT -----> Downloading Open JDK Like Memory Calculator 2.0.2_RELEASE from https://java-buildpack.cloudfoundry.org/memory-calculator/trusty/x86_64/memory-calculator-2.0.2_RELEASE.tar.gz (found in cache)
+2017-03-29T11:03:41.68-0400 [STG/0]      OUT        Adding certificates to .java-buildpack/container_certificate_trust_store/truststore.jks (0.5s)
+2017-03-29T11:03:41.68-0400 [STG/0]      OUT -----> Downloading Spring Auto Reconfiguration 1.10.0_RELEASE from https://java-buildpack.cloudfoundry.org/auto-reconfiguration/auto-reconfiguration-1.10.0_RELEASE.jar (found in cache)
+2017-03-29T11:03:49.67-0400 [STG/0]      OUT Uploading droplet, build artifacts cache...
+2017-03-29T11:03:49.67-0400 [STG/0]      OUT Uploading build artifacts cache...
+2017-03-29T11:03:49.67-0400 [STG/0]      OUT Uploading droplet...
+2017-03-29T11:03:49.72-0400 [STG/0]      OUT Uploaded build artifacts cache (109B)
+2017-03-29T11:03:56.09-0400 [STG/0]      OUT Destroying container
+2017-03-29T11:03:56.86-0400 [CELL/0]     OUT Creating container
+2017-03-29T11:04:01.34-0400 [CELL/0]     OUT Starting health monitoring of container
+2017-03-29T11:04:04.12-0400 [APP/PROC/WEB/0]OUT  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2017-03-29T11:04:04.12-0400 [APP/PROC/WEB/0]OUT  =========|_|==============|___/=/_/_/_/
+2017-03-29T11:04:04.13-0400 [APP/PROC/WEB/0]OUT  :: Spring Boot ::        (v1.5.2.RELEASE)
+2017-03-29T11:04:04.90-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:04:04.900  INFO 13 --- [           main] c.g.jofowler.app.StockSpringBootStarter  : Starting StockSpringBootStarter on a07a2988-963f-435d-48e0-b92acb4e1670 with PID 13 (/home/vcap/app/BOOT-INF/classes started by vcap in /home/vcap/app)
+2017-03-29T11:04:08.45-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:04:08.459  INFO 13 --- [           main] urceCloudServiceBeanFactoryPostProcessor : No beans of type javax.sql.DataSource found. Skipping auto-reconfiguration.
+2017-03-29T11:04:09.86-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:04:09.866  INFO 13 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-03-29T11:04:09.94-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:04:09.936  INFO 13 --- [           main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-03-29T11:04:09.94-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:04:09.940  INFO 13 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.11
+2017-03-29T11:04:10.56-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:04:10.563  INFO 13 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-03-29T11:04:10.57-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:04:10.573  INFO 13 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-03-29T11:04:10.57-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:04:10.574  INFO 13 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-03-29T11:04:10.57-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:04:10.574  INFO 13 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-03-29T11:04:11.30-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:04:11.307  INFO 13 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-03-29T11:04:11.37-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:04:11.370  INFO 13 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-29T11:04:11.37-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:04:11.370  INFO 13 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-29T11:04:11.44-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:04:11.443  INFO 13 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-29T11:06:57.82-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:06:57.819  INFO 13 --- [nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-03-29T11:29:25.92-0400 [CELL/0]     OUT Exit status 0
+2017-03-29T11:29:25.93-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:29:25.930  INFO 13 --- [       Thread-3] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1a6c5a9e: startup date [Wed Mar 29 15:04:05 UTC 2017]; root of context hierarchy
+2017-03-29T11:29:25.93-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:29:25.932  INFO 13 --- [       Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-03-29T11:29:26.05-0400 [APP/PROC/WEB/0]OUT Exit status 143
+2017-03-29T11:29:26.50-0400 [CELL/0]     OUT Successfully destroyed container
+2017-03-29T11:29:29.25-0400 [STG/0]      OUT Downloading dotnet_core_buildpack...
+2017-03-29T11:29:29.61-0400 [STG/0]      OUT Downloading dotnet_core_buildpack_beta...
+2017-03-29T11:29:29.61-0400 [STG/0]      OUT Downloaded staticfile_buildpack
+2017-03-29T11:29:29.62-0400 [STG/0]      OUT Downloading ruby_buildpack...
+2017-03-29T11:29:29.75-0400 [STG/0]      OUT Downloaded java_buildpack
+2017-03-29T11:29:29.75-0400 [STG/0]      OUT Creating container
+2017-03-29T11:29:30.29-0400 [STG/0]      OUT Successfully created container
+2017-03-29T11:29:30.86-0400 [STG/0]      OUT Downloaded build artifacts cache (109B)
+2017-03-29T11:29:34.87-0400 [STG/0]      OUT -----> Downloading Open Jdk JRE 1.8.0_121 from https://java-buildpack.cloudfoundry.org/openjdk/trusty/x86_64/openjdk-1.8.0_121.tar.gz (found in cache)
+2017-03-29T11:29:36.53-0400 [STG/0]      OUT -----> Downloading Open JDK Like Memory Calculator 2.0.2_RELEASE from https://java-buildpack.cloudfoundry.org/memory-calculator/trusty/x86_64/memory-calculator-2.0.2_RELEASE.tar.gz (found in cache)
+2017-03-29T11:29:37.78-0400 [STG/0]      OUT        Adding certificates to .java-buildpack/container_certificate_trust_store/truststore.jks (1.1s)
+2017-03-29T11:29:47.49-0400 [STG/0]      OUT Exit status 0
+2017-03-29T11:29:47.49-0400 [STG/0]      OUT Uploading droplet, build artifacts cache...
+2017-03-29T11:29:53.88-0400 [STG/0]      OUT Destroying container
+2017-03-29T11:29:54.89-0400 [CELL/0]     OUT Creating container
+2017-03-29T11:29:55.29-0400 [CELL/0]     OUT Successfully created container
+2017-03-29T11:29:58.13-0400 [CELL/0]     OUT Starting health monitoring of container
+2017-03-29T11:29:59.98-0400 [APP/PROC/WEB/0]OUT   .   ____          _            __ _ _
+2017-03-29T11:29:59.98-0400 [APP/PROC/WEB/0]OUT  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2017-03-29T11:29:59.98-0400 [APP/PROC/WEB/0]OUT ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2017-03-29T11:29:59.98-0400 [APP/PROC/WEB/0]OUT  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2017-03-29T11:29:59.98-0400 [APP/PROC/WEB/0]OUT   '  |____| .__|_| |_|_| |_\__, | / / / /
+2017-03-29T11:29:59.98-0400 [APP/PROC/WEB/0]OUT  =========|_|==============|___/=/_/_/_/
+2017-03-29T11:29:59.98-0400 [APP/PROC/WEB/0]OUT  :: Spring Boot ::        (v1.5.2.RELEASE)
+2017-03-29T11:30:00.36-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:30:00.336  INFO 16 --- [           main] pertySourceApplicationContextInitializer : Adding 'cloud' PropertySource to ApplicationContext
+2017-03-29T11:30:00.60-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:30:00.607  INFO 16 --- [           main] nfigurationApplicationContextInitializer : Adding cloud service auto-reconfiguration to ApplicationContext
+2017-03-29T11:30:00.66-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:30:00.665  INFO 16 --- [           main] c.g.jofowler.app.StockSpringBootStarter  : Starting StockSpringBootStarter on f224caae-299e-4f13-4678-379dcdc5a572 with PID 16 (/home/vcap/app/BOOT-INF/classes started by vcap in /home/vcap/app)
+2017-03-29T11:30:00.66-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:30:00.665  INFO 16 --- [           main] c.g.jofowler.app.StockSpringBootStarter  : The following profiles are active: cloud
+2017-03-29T11:30:00.83-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:30:00.835  INFO 16 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1a6c5a9e: startup date [Wed Mar 29 15:30:00 UTC 2017]; root of context hierarchy
+2017-03-29T11:30:02.29-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:30:02.293  INFO 16 --- [           main] urceCloudServiceBeanFactoryPostProcessor : Auto-reconfiguring beans of type javax.sql.DataSource
+2017-03-29T11:30:02.29-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:30:02.295  INFO 16 --- [           main] urceCloudServiceBeanFactoryPostProcessor : No beans of type javax.sql.DataSource found. Skipping auto-reconfiguration.
+2017-03-29T11:30:03.12-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:30:03.120  INFO 16 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-03-29T11:30:03.14-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:30:03.139  INFO 16 --- [           main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-03-29T11:30:03.14-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:30:03.141  INFO 16 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.11
+2017-03-29T11:30:03.33-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:30:03.331  INFO 16 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-03-29T11:30:03.33-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:30:03.332  INFO 16 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2502 ms
+2017-03-29T11:30:03.60-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:30:03.605  INFO 16 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-03-29T11:30:03.61-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:30:03.612  INFO 16 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-03-29T11:30:03.61-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:30:03.612  INFO 16 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-03-29T11:30:03.61-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:30:03.613  INFO 16 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-03-29T11:30:03.61-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:30:03.613  INFO 16 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-03-29T11:30:04.32-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:30:04.324  INFO 16 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1a6c5a9e: startup date [Wed Mar 29 15:30:00 UTC 2017]; root of context hierarchy
+2017-03-29T11:30:04.58-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:30:04.578  INFO 16 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/stock/get-env],methods=[GET],produces=[application/json]}" onto public java.lang.String com.github.jofowler.app.StockResource.getEnv(java.lang.String)
+2017-03-29T11:30:04.58-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:30:04.583  INFO 16 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/stock/ping],methods=[GET],produces=[application/json]}" onto public java.lang.String com.github.jofowler.app.StockResource.ping()
+2017-03-29T11:30:04.59-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:30:04.588  INFO 16 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-03-29T11:30:04.59-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:30:04.589  INFO 16 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-03-29T11:30:04.66-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:30:04.664  INFO 16 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-29T11:30:04.66-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:30:04.665  INFO 16 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-29T11:30:04.75-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:30:04.751  INFO 16 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-29T11:30:05.05-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:30:05.058  INFO 16 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-03-29T11:30:05.16-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:30:05.165  INFO 16 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2017-03-29T11:30:05.17-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:30:05.173  INFO 16 --- [           main] c.g.jofowler.app.StockSpringBootStarter  : Started StockSpringBootStarter in 6.195 seconds (JVM running for 6.933)
+2017-03-29T11:30:06.72-0400 [CELL/0]     OUT Container became healthy
+2017-03-29T11:31:08.80-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:31:08.801  INFO 16 --- [nio-8080-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-03-29T11:31:08.80-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:31:08.801  INFO 16 --- [nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-03-29T11:31:08.84-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:31:08.844  INFO 16 --- [nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 43 ms
+2017-03-29T11:32:42.25-0400 [API/4]      OUT Updated app with guid a4c2e9de-2ecb-4110-9ac5-5f77ac5e8f0c ({"environment_json"=>"PRIVATE DATA HIDDEN"})
+2017-03-29T11:33:32.28-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:33:32.285  INFO 16 --- [       Thread-3] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1a6c5a9e: startup date [Wed Mar 29 15:30:00 UTC 2017]; root of context hierarchy
+2017-03-29T11:33:32.28-0400 [CELL/0]     OUT Exit status 0
+2017-03-29T11:33:32.28-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:33:32.287  INFO 16 --- [       Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-03-29T11:33:32.39-0400 [APP/PROC/WEB/0]OUT Exit status 143
+2017-03-29T11:33:32.40-0400 [CELL/0]     OUT Destroying container
+2017-03-29T11:33:32.83-0400 [CELL/0]     OUT Successfully destroyed container
+2017-03-29T11:33:33.58-0400 [API/3]      OUT Updated app with guid a4c2e9de-2ecb-4110-9ac5-5f77ac5e8f0c ({"state"=>"STARTED"})
+2017-03-29T11:33:33.62-0400 [CELL/0]     OUT Creating container
+2017-03-29T11:33:34.17-0400 [CELL/0]     OUT Successfully created container
+2017-03-29T11:33:36.89-0400 [CELL/0]     OUT Starting health monitoring of container
+2017-03-29T11:33:38.28-0400 [APP/PROC/WEB/0]OUT   .   ____          _            __ _ _
+2017-03-29T11:33:38.28-0400 [APP/PROC/WEB/0]OUT ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2017-03-29T11:33:38.28-0400 [APP/PROC/WEB/0]OUT  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2017-03-29T11:33:38.28-0400 [APP/PROC/WEB/0]OUT   '  |____| .__|_| |_|_| |_\__, | / / / /
+2017-03-29T11:33:38.28-0400 [APP/PROC/WEB/0]OUT  =========|_|==============|___/=/_/_/_/
+2017-03-29T11:33:38.46-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:33:38.464  INFO 24 --- [           main] pertySourceApplicationContextInitializer : Adding 'cloud' PropertySource to ApplicationContext
+2017-03-29T11:33:38.57-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:33:38.571  INFO 24 --- [           main] nfigurationApplicationContextInitializer : Adding cloud service auto-reconfiguration to ApplicationContext
+2017-03-29T11:33:38.75-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:33:38.750  INFO 24 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1a6c5a9e: startup date [Wed Mar 29 15:33:38 UTC 2017]; root of context hierarchy
+2017-03-29T11:33:39.71-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:33:39.718  INFO 24 --- [           main] urceCloudServiceBeanFactoryPostProcessor : No beans of type javax.sql.DataSource found. Skipping auto-reconfiguration.
+2017-03-29T11:33:40.24-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:33:40.236  INFO 24 --- [           main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-03-29T11:33:40.24-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:33:40.237  INFO 24 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.11
+2017-03-29T11:33:40.42-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:33:40.425  INFO 24 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1679 ms
+2017-03-29T11:33:40.69-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:33:40.691  INFO 24 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-03-29T11:33:40.70-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:33:40.696  INFO 24 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-03-29T11:33:40.70-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:33:40.703  INFO 24 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-03-29T11:33:41.26-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:33:41.264  INFO 24 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/stock/ping],methods=[GET],produces=[application/json]}" onto public java.lang.String com.github.jofowler.app.StockResource.ping()
+2017-03-29T11:33:41.26-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:33:41.265  INFO 24 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/stock/get-env],methods=[GET],produces=[application/json]}" onto public java.lang.String com.github.jofowler.app.StockResource.getEnv(java.lang.String)
+2017-03-29T11:33:41.26-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:33:41.268  INFO 24 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-03-29T11:33:41.27-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:33:41.268  INFO 24 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-03-29T11:33:41.31-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:33:41.299  INFO 24 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-29T11:33:41.31-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:33:41.300  INFO 24 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-29T11:33:41.34-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:33:41.346  INFO 24 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-29T11:33:41.51-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:33:41.513  INFO 24 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-03-29T11:33:41.60-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:33:41.600  INFO 24 --- [           main] c.g.jofowler.app.StockSpringBootStarter  : Started StockSpringBootStarter in 4.135 seconds (JVM running for 4.589)
+2017-03-29T11:33:43.44-0400 [CELL/0]     OUT Container became healthy
+2017-03-29T11:34:03.89-0400 [APP/PROC/WEB/0]OUT 2017-03-29 15:34:03.890  INFO 24 --- [nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-03-29T11:35:49.89-0400 [RTR/5]      OUT jof12fapp.cfapps.io - [2017-03-29T15:35:49.887+0000] "GET /stock/get-env?env=my-env HTTP/1.1" 200 0 14 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36" "10.10.66.97:63089" "10.10.148.106:61129" x_forwarded_for:"149.173.1.38, 104.129.204.81" x_forwarded_proto:"http" vcap_request_id:"19c6bd0b-d38b-497e-7369-895f05019f25" response_time:0.006713907 app_id:"a4c2e9de-2ecb-4110-9ac5-5f77ac5e8f0c" app_index:"0" x_b3_traceid:"49a42b4b98777469" x_b3_spanid:"49a42b4b98777469" x_b3_parentspanid:"-"
+2017-03-29T12:30:25.23-0400 [API/0]      OUT Updated app with guid a4c2e9de-2ecb-4110-9ac5-5f77ac5e8f0c ({"name"=>"jof12fapp", "memory"=>512, "environment_json"=>"PRIVATE DATA HIDDEN"})
+2017-03-29T12:30:44.58-0400 [API/3]      OUT Updated app with guid a4c2e9de-2ecb-4110-9ac5-5f77ac5e8f0c ({"state"=>"STOPPED"})
+2017-03-29T12:30:47.91-0400 [API/1]      OUT Updated app with guid a4c2e9de-2ecb-4110-9ac5-5f77ac5e8f0c ({"state"=>"STARTED"})
+2017-03-29T12:30:48.37-0400 [STG/0]      OUT Downloading binary_buildpack...
+2017-03-29T12:30:48.37-0400 [STG/0]      OUT Downloading nodejs_buildpack...
+2017-03-29T12:30:48.37-0400 [STG/0]      OUT Downloading ruby_buildpack...
+2017-03-29T12:30:48.37-0400 [STG/0]      OUT Downloading dotnet_core_buildpack_beta...
+2017-03-29T12:30:48.37-0400 [STG/0]      OUT Downloading python_buildpack...
+2017-03-29T12:30:48.41-0400 [STG/0]      OUT Downloaded ruby_buildpack
+2017-03-29T12:30:48.41-0400 [STG/0]      OUT Downloading go_buildpack...
+2017-03-29T12:30:48.44-0400 [STG/0]      OUT Downloaded nodejs_buildpack
+2017-03-29T12:30:48.44-0400 [STG/0]      OUT Downloading staticfile_buildpack...
+2017-03-29T12:30:48.44-0400 [STG/0]      OUT Downloaded python_buildpack
+2017-03-29T12:30:48.44-0400 [STG/0]      OUT Downloading java_buildpack...
+2017-03-29T12:30:48.44-0400 [STG/0]      OUT Downloaded binary_buildpack
+2017-03-29T12:30:48.44-0400 [STG/0]      OUT Downloading php_buildpack...
+2017-03-29T12:30:48.45-0400 [STG/0]      OUT Downloaded java_buildpack
+2017-03-29T12:30:48.45-0400 [STG/0]      OUT Downloading dotnet_core_buildpack...
+2017-03-29T12:30:48.46-0400 [STG/0]      OUT Downloaded staticfile_buildpack
+2017-03-29T12:30:48.46-0400 [STG/0]      OUT Downloaded go_buildpack
+2017-03-29T12:30:48.47-0400 [STG/0]      OUT Downloaded dotnet_core_buildpack
+2017-03-29T12:30:48.47-0400 [STG/0]      OUT Downloaded dotnet_core_buildpack_beta
+2017-03-29T12:30:48.48-0400 [STG/0]      OUT Downloaded php_buildpack
+2017-03-29T12:30:48.48-0400 [STG/0]      OUT Creating container
+2017-03-29T12:30:49.11-0400 [STG/0]      OUT Successfully created container
+2017-03-29T12:30:49.11-0400 [STG/0]      OUT Downloading build artifacts cache...
+2017-03-29T12:30:49.11-0400 [STG/0]      OUT Downloading app package...
+2017-03-29T12:30:50.28-0400 [STG/0]      OUT Downloaded app package (23.6M)
+2017-03-29T12:30:51.50-0400 [SSH/0]      OUT Remote access ended for 10.10.66.44:37549
+2017-03-29T12:30:51.52-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:30:51.523  INFO 24 --- [       Thread-3] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1a6c5a9e: startup date [Wed Mar 29 15:33:38 UTC 2017]; root of context hierarchy
+2017-03-29T12:30:51.52-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:30:51.524  INFO 24 --- [       Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-03-29T12:30:51.52-0400 [CELL/0]     OUT Exit status 0
+2017-03-29T12:30:51.61-0400 [APP/PROC/WEB/0]OUT Exit status 143
+2017-03-29T12:30:51.71-0400 [CELL/0]     OUT Destroying container
+2017-03-29T12:30:52.17-0400 [CELL/0]     OUT Successfully destroyed container
+2017-03-29T12:30:52.38-0400 [STG/0]      OUT -----> Java Buildpack Version: v3.14 (offline) | https://github.com/cloudfoundry/java-buildpack.git#d5d58c6
+2017-03-29T12:30:52.53-0400 [STG/0]      OUT -----> Downloading Open Jdk JRE 1.8.0_121 from https://java-buildpack.cloudfoundry.org/openjdk/trusty/x86_64/openjdk-1.8.0_121.tar.gz (found in cache)
+2017-03-29T12:30:53.62-0400 [STG/0]      OUT        Expanding Open Jdk JRE to .java-buildpack/open_jdk_jre (1.0s)
+2017-03-29T12:30:53.62-0400 [STG/0]      OUT -----> Downloading Open JDK Like Memory Calculator 2.0.2_RELEASE from https://java-buildpack.cloudfoundry.org/memory-calculator/trusty/x86_64/memory-calculator-2.0.2_RELEASE.tar.gz (found in cache)
+2017-03-29T12:30:53.65-0400 [STG/0]      OUT        Memory Settings: -XX:MetaspaceSize=104857K -XX:MaxMetaspaceSize=104857K -Xss349K -Xmx681574K -Xms681574K
+2017-03-29T12:30:53.65-0400 [STG/0]      OUT -----> Downloading Container Certificate Trust Store 2.0.0_RELEASE from https://java-buildpack.cloudfoundry.org/container-certificate-trust-store/container-certificate-trust-store-2.0.0_RELEASE.jar (found in cache)
+2017-03-29T12:30:54.01-0400 [STG/0]      OUT        Adding certificates to .java-buildpack/container_certificate_trust_store/truststore.jks (0.3s)
+2017-03-29T12:30:54.01-0400 [STG/0]      OUT -----> Downloading Spring Auto Reconfiguration 1.10.0_RELEASE from https://java-buildpack.cloudfoundry.org/auto-reconfiguration/auto-reconfiguration-1.10.0_RELEASE.jar (found in cache)
+2017-03-29T12:31:02.07-0400 [STG/0]      OUT Exit status 0
+2017-03-29T12:31:02.07-0400 [STG/0]      OUT Uploading droplet, build artifacts cache...
+2017-03-29T12:31:02.07-0400 [STG/0]      OUT Uploading build artifacts cache...
+2017-03-29T12:31:02.07-0400 [STG/0]      OUT Uploading droplet...
+2017-03-29T12:31:02.17-0400 [STG/0]      OUT Uploaded build artifacts cache (108B)
+2017-03-29T12:31:20.47-0400 [STG/0]      OUT Uploaded droplet (69M)
+2017-03-29T12:31:20.48-0400 [STG/0]      OUT Uploading complete
+2017-03-29T12:31:20.53-0400 [STG/0]      OUT Destroying container
+2017-03-29T12:31:21.06-0400 [STG/0]      OUT Successfully destroyed container
+2017-03-29T12:31:21.38-0400 [CELL/0]     OUT Creating container
+2017-03-29T12:31:22.17-0400 [CELL/0]     OUT Successfully created container
+2017-03-29T12:31:26.37-0400 [CELL/0]     OUT Starting health monitoring of container
+2017-03-29T12:31:30.92-0400 [APP/PROC/WEB/0]OUT   .   ____          _            __ _ _
+2017-03-29T12:31:30.93-0400 [APP/PROC/WEB/0]OUT  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2017-03-29T12:31:30.93-0400 [APP/PROC/WEB/0]OUT ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2017-03-29T12:31:30.93-0400 [APP/PROC/WEB/0]OUT  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2017-03-29T12:31:30.93-0400 [APP/PROC/WEB/0]OUT   '  |____| .__|_| |_|_| |_\__, | / / / /
+2017-03-29T12:31:30.93-0400 [APP/PROC/WEB/0]OUT  =========|_|==============|___/=/_/_/_/
+2017-03-29T12:31:30.94-0400 [APP/PROC/WEB/0]OUT  :: Spring Boot ::        (v1.5.2.RELEASE)
+2017-03-29T12:31:31.57-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:31:31.539  INFO 19 --- [           main] pertySourceApplicationContextInitializer : Adding 'cloud' PropertySource to ApplicationContext
+2017-03-29T12:31:31.95-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:31:31.958  INFO 19 --- [           main] nfigurationApplicationContextInitializer : Adding cloud service auto-reconfiguration to ApplicationContext
+2017-03-29T12:31:32.04-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:31:32.039  INFO 19 --- [           main] c.g.jofowler.app.StockSpringBootStarter  : Starting StockSpringBootStarter on 4cbf1927-2f82-492f-41ab-3811be8b51bb with PID 19 (/home/vcap/app/BOOT-INF/classes started by vcap in /home/vcap/app)
+2017-03-29T12:31:32.04-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:31:32.040  INFO 19 --- [           main] c.g.jofowler.app.StockSpringBootStarter  : The following profiles are active: cloud
+2017-03-29T12:31:32.24-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:31:32.247  INFO 19 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1a6c5a9e: startup date [Wed Mar 29 16:31:32 UTC 2017]; root of context hierarchy
+2017-03-29T12:31:38.56-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:31:38.560  INFO 19 --- [           main] urceCloudServiceBeanFactoryPostProcessor : Auto-reconfiguring beans of type javax.sql.DataSource
+2017-03-29T12:31:38.61-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:31:38.611  INFO 19 --- [           main] o.c.r.o.s.c.s.r.PooledDataSourceCreator  : Found Tomcat high-performance connection pool on the classpath. Using it for DataSource connection pooling.
+2017-03-29T12:31:38.66-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:31:38.661  INFO 19 --- [           main] urceCloudServiceBeanFactoryPostProcessor : Reconfigured bean dataSource into singleton service connector org.apache.tomcat.jdbc.pool.DataSource@15d0c81b{ConnectionPool[defaultAutoCommit=null; defaultReadOnly=null; defaultTransactionIsolation=-1; defaultCatalog=null; driverClassName=com.mysql.jdbc.Driver; maxActive=4; maxIdle=100; minIdle=0; initialSize=0; maxWait=30000; testOnBorrow=true; testOnReturn=false; timeBetweenEvictionRunsMillis=5000; numTestsPerEvictionRun=0; minEvictableIdleTimeMillis=60000; testWhileIdle=false; testOnConnect=false; password=********; url=jdbc:mysql://us-cdbr-iron-east-03.cleardb.net/ad_df4a63e908b7910?user=b24ab67922203d&password=2d2b8769; username=null; validationQuery=/* ping */ SELECT 1; validationQueryTimeout=-1; validatorClassName=null; validationInterval=30000; accessToUnderlyingConnectionAllowed=true; removeAbandoned=false; removeAbandonedTimeout=60; logAbandoned=false; connectionProperties=null; initSQL=null; jdbcInterceptors=null; jmxEnabled=true; fairQueue=true; useEquals=true; abandonWhenPercentageFull=0; maxAge=0; useLock=false; dataSource=null; dataSourceJNDI=null; suspectTimeout=0; alternateUsernameAllowed=false; commitOnReturn=false; rollbackOnReturn=false; useDisposableConnectionFacade=true; logValidationErrors=false; propagateInterruptState=false; ignoreExceptionOnPreLoad=false; }
+2017-03-29T12:31:38.66-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:31:38.663  INFO 19 --- [           main] nateCloudServiceBeanFactoryPostProcessor : Auto-reconfiguring beans of type org.springframework.orm.hibernate3.AbstractSessionFactoryBean
+2017-03-29T12:31:38.66-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:31:38.667  INFO 19 --- [           main] nateCloudServiceBeanFactoryPostProcessor : Auto-reconfiguring beans of type org.springframework.orm.hibernate4.LocalSessionFactoryBean
+2017-03-29T12:31:38.66-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:31:38.668  INFO 19 --- [           main] .JpaCloudServiceBeanFactoryPostProcessor : Auto-reconfiguring beans of type org.springframework.orm.jpa.AbstractEntityManagerFactoryBean
+2017-03-29T12:31:39.10-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:31:39.108  INFO 19 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8f9272c1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-29T12:31:39.86-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:31:39.862  INFO 19 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-03-29T12:31:39.92-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:31:39.924  INFO 19 --- [           main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-03-29T12:31:39.92-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:31:39.927  INFO 19 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.11
+2017-03-29T12:31:40.36-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:31:40.359  INFO 19 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-03-29T12:31:40.36-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:31:40.360  INFO 19 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 8118 ms
+2017-03-29T12:31:41.09-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:31:41.092  INFO 19 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-03-29T12:31:41.11-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:31:41.105  INFO 19 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-03-29T12:31:41.11-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:31:41.115  INFO 19 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-03-29T12:31:41.11-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:31:41.115  INFO 19 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-03-29T12:31:41.11-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:31:41.115  INFO 19 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-03-29T12:31:41.34-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:31:41.349  INFO 19 --- [           main] o.f.core.internal.util.VersionPrinter    : Flyway 3.2.1 by Boxfuse
+2017-03-29T12:31:41.35-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:31:41.359  WARN 19 --- [           main] o.a.tomcat.jdbc.pool.ConnectionPool      : maxIdle is larger than maxActive, setting maxIdle to: 4
+2017-03-29T12:31:41.92-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:31:41.924  INFO 19 --- [           main] o.f.c.i.dbsupport.DbSupportFactory       : Database: jdbc:mysql://us-cdbr-iron-east-03.cleardb.net/ad_df4a63e908b7910?user=b24ab67922203d&password=2d2b8769 (MySQL 5.5)
+2017-03-29T12:31:41.98-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:31:41.983  INFO 19 --- [           main] o.f.core.internal.command.DbValidate     : Validated 1 migration (execution time 00:00.025s)
+2017-03-29T12:31:42.06-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:31:42.066  INFO 19 --- [           main] o.f.c.i.metadatatable.MetaDataTableImpl  : Creating Metadata table: `ad_df4a63e908b7910`.`schema_version`
+2017-03-29T12:31:42.16-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:31:42.160  INFO 19 --- [           main] o.f.core.internal.command.DbMigrate      : Current version of schema `ad_df4a63e908b7910`: << Empty Schema >>
+2017-03-29T12:31:42.16-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:31:42.160  INFO 19 --- [           main] o.f.core.internal.command.DbMigrate      : Migrating schema `ad_df4a63e908b7910` to version 1.0.0 - create stock table
+2017-03-29T12:31:42.23-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:31:42.229  INFO 19 --- [           main] o.f.core.internal.command.DbMigrate      : Successfully applied 1 migration to schema `ad_df4a63e908b7910` (execution time 00:00.169s).
+2017-03-29T12:31:42.47-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:31:42.469  INFO 19 --- [           main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-03-29T12:31:42.52-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:31:42.522  INFO 19 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+2017-03-29T12:31:42.52-0400 [APP/PROC/WEB/0]OUT 	name: default
+2017-03-29T12:31:42.52-0400 [APP/PROC/WEB/0]OUT 	...]
+2017-03-29T12:31:42.71-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:31:42.715  INFO 19 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate Core {4.3.11.Final}
+2017-03-29T12:31:42.71-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:31:42.718  INFO 19 --- [           main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-03-29T12:31:42.72-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:31:42.720  INFO 19 --- [           main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-03-29T12:31:43.16-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:31:43.164  INFO 19 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-03-29T12:31:43.36-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:31:43.360  INFO 19 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-03-29T12:31:43.66-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:31:43.663  INFO 19 --- [           main] o.h.h.i.ast.ASTQueryTranslatorFactory    : HHH000397: Using ASTQueryTranslatorFactory
+2017-03-29T12:31:45.71-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:31:45.710  INFO 19 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1a6c5a9e: startup date [Wed Mar 29 16:31:32 UTC 2017]; root of context hierarchy
+2017-03-29T12:31:45.91-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:31:45.913  INFO 19 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/stock],methods=[PUT],produces=[application/json]}" onto public com.github.jofowler.app.domain.model.StockItem com.github.jofowler.app.StockResource.update(com.github.jofowler.app.domain.model.StockItem,javax.servlet.http.HttpServletResponse)
+2017-03-29T12:31:45.91-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:31:45.914  INFO 19 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/stock/{id}],methods=[GET],produces=[application/json]}" onto public com.github.jofowler.app.domain.model.StockItem com.github.jofowler.app.StockResource.stockItem(java.lang.Long,javax.servlet.http.HttpServletResponse)
+2017-03-29T12:31:45.91-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:31:45.915  INFO 19 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/stock],methods=[POST],produces=[application/json]}" onto public com.github.jofowler.app.domain.model.StockItem com.github.jofowler.app.StockResource.storeInStock(com.github.jofowler.app.domain.model.StockItem,javax.servlet.http.HttpServletResponse)
+2017-03-29T12:31:45.91-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:31:45.915  INFO 19 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/stock/{id}],methods=[DELETE],produces=[application/json]}" onto public void com.github.jofowler.app.StockResource.removeFromStock(java.lang.Long,javax.servlet.http.HttpServletResponse)
+2017-03-29T12:31:45.91-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:31:45.915  INFO 19 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/stock],methods=[GET],produces=[application/json]}" onto public java.lang.Iterable<com.github.jofowler.app.domain.model.StockItem> com.github.jofowler.app.StockResource.items()
+2017-03-29T12:31:45.91-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:31:45.918  INFO 19 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-03-29T12:31:45.91-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:31:45.918  INFO 19 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-03-29T12:31:45.98-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:31:45.985  INFO 19 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-29T12:31:45.98-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:31:45.986  INFO 19 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-29T12:31:46.14-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:31:46.143  INFO 19 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-29T12:31:46.97-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:31:46.970  INFO 19 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-03-29T12:31:47.12-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:31:47.123  INFO 19 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2017-03-29T12:31:47.13-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:31:47.139  INFO 19 --- [           main] c.g.jofowler.app.StockSpringBootStarter  : Started StockSpringBootStarter in 18.392 seconds (JVM running for 20.622)
+2017-03-29T12:31:48.22-0400 [CELL/0]     OUT Container became healthy
+2017-03-29T12:32:26.84-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:32:26.840  INFO 19 --- [nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-03-29T12:32:26.84-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:32:26.841  INFO 19 --- [nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-03-29T12:32:26.96-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:32:26.960  INFO 19 --- [nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 119 ms
+2017-03-29T12:32:27.34-0400 [APP/PROC/WEB/0]OUT 2017-03-29 16:32:27.342  WARN 19 --- [nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: Could not read document: Unexpected character (''' (code 39)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+2017-03-29T12:32:27.34-0400 [APP/PROC/WEB/0]OUT  at [Source: java.io.PushbackInputStream@417063db; line: 1, column: 2]; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character (''' (code 39)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+2017-03-29T12:32:27.34-0400 [APP/PROC/WEB/0]OUT  at [Source: java.io.PushbackInputStream@417063db; line: 1, column: 2]
+2017-03-29T12:32:27.44-0400 [RTR/5]      OUT jof12fapp.cfapps.io - [2017-03-29T16:32:26.759+0000] "POST /stock HTTP/1.1" 400 54 648 "-" "curl/7.49.0" "10.10.66.97:32381" "10.10.148.93:61088" x_forwarded_for:"192.58.183.9, 104.129.194.75" x_forwarded_proto:"http" vcap_request_id:"4bbb5736-8095-4bfc-7107-9ce21d6dc637" response_time:0.682129163 app_id:"a4c2e9de-2ecb-4110-9ac5-5f77ac5e8f0c" app_index:"0" x_b3_traceid:"b59664bfaa9c18c2" x_b3_spanid:"b59664bfaa9c18c2" x_b3_parentspanid:"-"
+2017-03-29T13:06:52.61-0400 [API/6]      OUT Updated app with guid a4c2e9de-2ecb-4110-9ac5-5f77ac5e8f0c ({"name"=>"jof12fapp", "memory"=>512, "environment_json"=>"PRIVATE DATA HIDDEN"})
+2017-03-29T13:07:09.26-0400 [CELL/0]     OUT Exit status 0
+2017-03-29T13:07:09.26-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:07:09.264  INFO 19 --- [       Thread-4] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1a6c5a9e: startup date [Wed Mar 29 16:31:32 UTC 2017]; root of context hierarchy
+2017-03-29T13:07:09.36-0400 [APP/PROC/WEB/0]OUT Exit status 143
+2017-03-29T13:07:09.38-0400 [CELL/0]     OUT Destroying container
+2017-03-29T13:07:09.86-0400 [CELL/0]     OUT Successfully destroyed container
+2017-03-29T13:07:11.98-0400 [API/6]      OUT Updated app with guid a4c2e9de-2ecb-4110-9ac5-5f77ac5e8f0c ({"state"=>"STARTED"})
+2017-03-29T13:07:12.45-0400 [STG/0]      OUT Downloading binary_buildpack...
+2017-03-29T13:07:12.45-0400 [STG/0]      OUT Downloading php_buildpack...
+2017-03-29T13:07:12.45-0400 [STG/0]      OUT Downloading staticfile_buildpack...
+2017-03-29T13:07:12.46-0400 [STG/0]      OUT Downloading go_buildpack...
+2017-03-29T13:07:12.48-0400 [STG/0]      OUT Downloaded staticfile_buildpack
+2017-03-29T13:07:12.48-0400 [STG/0]      OUT Downloading java_buildpack...
+2017-03-29T13:07:12.50-0400 [STG/0]      OUT Downloaded php_buildpack
+2017-03-29T13:07:12.50-0400 [STG/0]      OUT Downloading python_buildpack...
+2017-03-29T13:07:12.51-0400 [STG/0]      OUT Downloaded binary_buildpack
+2017-03-29T13:07:12.51-0400 [STG/0]      OUT Downloading ruby_buildpack...
+2017-03-29T13:07:12.52-0400 [STG/0]      OUT Downloaded python_buildpack
+2017-03-29T13:07:12.52-0400 [STG/0]      OUT Downloading nodejs_buildpack...
+2017-03-29T13:07:12.52-0400 [STG/0]      OUT Downloaded ruby_buildpack
+2017-03-29T13:07:12.52-0400 [STG/0]      OUT Downloading dotnet_core_buildpack...
+2017-03-29T13:07:12.53-0400 [STG/0]      OUT Downloaded dotnet_core_buildpack
+2017-03-29T13:07:12.53-0400 [STG/0]      OUT Downloading dotnet_core_buildpack_beta...
+2017-03-29T13:07:12.54-0400 [STG/0]      OUT Downloaded java_buildpack
+2017-03-29T13:07:12.55-0400 [STG/0]      OUT Downloaded dotnet_core_buildpack_beta
+2017-03-29T13:07:12.57-0400 [STG/0]      OUT Downloaded nodejs_buildpack
+2017-03-29T13:07:12.57-0400 [STG/0]      OUT Downloaded go_buildpack
+2017-03-29T13:07:12.57-0400 [STG/0]      OUT Creating container
+2017-03-29T13:07:13.42-0400 [STG/0]      OUT Successfully created container
+2017-03-29T13:07:13.42-0400 [STG/0]      OUT Downloading build artifacts cache...
+2017-03-29T13:07:13.42-0400 [STG/0]      OUT Downloading app package...
+2017-03-29T13:07:14.80-0400 [STG/0]      OUT Downloaded app package (23.6M)
+2017-03-29T13:07:17.31-0400 [STG/0]      OUT -----> Java Buildpack Version: v3.14 (offline) | https://github.com/cloudfoundry/java-buildpack.git#d5d58c6
+2017-03-29T13:07:17.45-0400 [STG/0]      OUT -----> Downloading Open Jdk JRE 1.8.0_121 from https://java-buildpack.cloudfoundry.org/openjdk/trusty/x86_64/openjdk-1.8.0_121.tar.gz (found in cache)
+2017-03-29T13:07:18.55-0400 [STG/0]      OUT        Expanding Open Jdk JRE to .java-buildpack/open_jdk_jre (1.1s)
+2017-03-29T13:07:18.55-0400 [STG/0]      OUT -----> Downloading Open JDK Like Memory Calculator 2.0.2_RELEASE from https://java-buildpack.cloudfoundry.org/memory-calculator/trusty/x86_64/memory-calculator-2.0.2_RELEASE.tar.gz (found in cache)
+2017-03-29T13:07:18.58-0400 [STG/0]      OUT        Memory Settings: -Xss349K -Xmx681574K -XX:MaxMetaspaceSize=104857K -Xms681574K -XX:MetaspaceSize=104857K
+2017-03-29T13:07:18.58-0400 [STG/0]      OUT -----> Downloading Container Certificate Trust Store 2.0.0_RELEASE from https://java-buildpack.cloudfoundry.org/container-certificate-trust-store/container-certificate-trust-store-2.0.0_RELEASE.jar (found in cache)
+2017-03-29T13:07:19.02-0400 [STG/0]      OUT        Adding certificates to .java-buildpack/container_certificate_trust_store/truststore.jks (0.4s)
+2017-03-29T13:07:19.02-0400 [STG/0]      OUT -----> Downloading Spring Auto Reconfiguration 1.10.0_RELEASE from https://java-buildpack.cloudfoundry.org/auto-reconfiguration/auto-reconfiguration-1.10.0_RELEASE.jar (found in cache)
+2017-03-29T13:07:27.70-0400 [STG/0]      OUT Exit status 0
+2017-03-29T13:07:27.70-0400 [STG/0]      OUT Uploading droplet, build artifacts cache...
+2017-03-29T13:07:27.70-0400 [STG/0]      OUT Uploading build artifacts cache...
+2017-03-29T13:07:27.70-0400 [STG/0]      OUT Uploading droplet...
+2017-03-29T13:07:27.79-0400 [STG/0]      OUT Uploaded build artifacts cache (108B)
+2017-03-29T13:07:33.46-0400 [STG/0]      OUT Uploaded droplet (69M)
+2017-03-29T13:07:33.47-0400 [STG/0]      OUT Uploading complete
+2017-03-29T13:07:33.54-0400 [STG/0]      OUT Destroying container
+2017-03-29T13:07:34.08-0400 [STG/0]      OUT Successfully destroyed container
+2017-03-29T13:07:34.46-0400 [CELL/0]     OUT Creating container
+2017-03-29T13:07:35.27-0400 [CELL/0]     OUT Successfully created container
+2017-03-29T13:07:40.60-0400 [CELL/0]     OUT Starting health monitoring of container
+2017-03-29T13:07:42.58-0400 [APP/PROC/WEB/0]OUT   .   ____          _            __ _ _
+2017-03-29T13:07:42.58-0400 [APP/PROC/WEB/0]OUT  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2017-03-29T13:07:42.58-0400 [APP/PROC/WEB/0]OUT ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2017-03-29T13:07:42.58-0400 [APP/PROC/WEB/0]OUT  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2017-03-29T13:07:42.58-0400 [APP/PROC/WEB/0]OUT   '  |____| .__|_| |_|_| |_\__, | / / / /
+2017-03-29T13:07:42.58-0400 [APP/PROC/WEB/0]OUT  =========|_|==============|___/=/_/_/_/
+2017-03-29T13:07:42.58-0400 [APP/PROC/WEB/0]OUT  :: Spring Boot ::        (v1.5.2.RELEASE)
+2017-03-29T13:07:42.81-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:07:42.807  INFO 22 --- [           main] pertySourceApplicationContextInitializer : Adding 'cloud' PropertySource to ApplicationContext
+2017-03-29T13:07:42.94-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:07:42.941  INFO 22 --- [           main] nfigurationApplicationContextInitializer : Adding cloud service auto-reconfiguration to ApplicationContext
+2017-03-29T13:07:42.98-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:07:42.973  INFO 22 --- [           main] c.g.jofowler.app.StockSpringBootStarter  : Starting StockSpringBootStarter on ac9e0479-bc35-46f1-4bbb-0d9d03997322 with PID 22 (/home/vcap/app/BOOT-INF/classes started by vcap in /home/vcap/app)
+2017-03-29T13:07:42.98-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:07:42.973  INFO 22 --- [           main] c.g.jofowler.app.StockSpringBootStarter  : The following profiles are active: cloud
+2017-03-29T13:07:43.17-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:07:43.161  INFO 22 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1a6c5a9e: startup date [Wed Mar 29 17:07:43 UTC 2017]; root of context hierarchy
+2017-03-29T13:07:44.84-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:07:44.831  INFO 22 --- [           main] urceCloudServiceBeanFactoryPostProcessor : Auto-reconfiguring beans of type javax.sql.DataSource
+2017-03-29T13:07:44.86-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:07:44.859  INFO 22 --- [           main] o.c.r.o.s.c.s.r.PooledDataSourceCreator  : Found Tomcat high-performance connection pool on the classpath. Using it for DataSource connection pooling.
+2017-03-29T13:07:44.91-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:07:44.914  INFO 22 --- [           main] urceCloudServiceBeanFactoryPostProcessor : Reconfigured bean dataSource into singleton service connector org.apache.tomcat.jdbc.pool.DataSource@74650e52{ConnectionPool[defaultAutoCommit=null; defaultReadOnly=null; defaultTransactionIsolation=-1; defaultCatalog=null; driverClassName=com.mysql.jdbc.Driver; maxActive=4; maxIdle=100; minIdle=0; initialSize=0; maxWait=30000; testOnBorrow=true; testOnReturn=false; timeBetweenEvictionRunsMillis=5000; numTestsPerEvictionRun=0; minEvictableIdleTimeMillis=60000; testWhileIdle=false; testOnConnect=false; password=********; url=jdbc:mysql://us-cdbr-iron-east-03.cleardb.net/ad_df4a63e908b7910?user=b24ab67922203d&password=2d2b8769; username=null; validationQuery=/* ping */ SELECT 1; validationQueryTimeout=-1; validatorClassName=null; validationInterval=30000; accessToUnderlyingConnectionAllowed=true; removeAbandoned=false; removeAbandonedTimeout=60; logAbandoned=false; connectionProperties=null; initSQL=null; jdbcInterceptors=null; jmxEnabled=true; fairQueue=true; useEquals=true; abandonWhenPercentageFull=0; maxAge=0; useLock=false; dataSource=null; dataSourceJNDI=null; suspectTimeout=0; alternateUsernameAllowed=false; commitOnReturn=false; rollbackOnReturn=false; useDisposableConnectionFacade=true; logValidationErrors=false; propagateInterruptState=false; ignoreExceptionOnPreLoad=false; }
+2017-03-29T13:07:44.91-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:07:44.919  INFO 22 --- [           main] nateCloudServiceBeanFactoryPostProcessor : Auto-reconfiguring beans of type org.springframework.orm.hibernate3.AbstractSessionFactoryBean
+2017-03-29T13:07:44.92-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:07:44.920  INFO 22 --- [           main] nateCloudServiceBeanFactoryPostProcessor : Auto-reconfiguring beans of type org.springframework.orm.hibernate4.LocalSessionFactoryBean
+2017-03-29T13:07:44.92-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:07:44.921  INFO 22 --- [           main] .JpaCloudServiceBeanFactoryPostProcessor : Auto-reconfiguring beans of type org.springframework.orm.jpa.AbstractEntityManagerFactoryBean
+2017-03-29T13:07:45.23-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:07:45.234  INFO 22 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e767962f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-29T13:07:45.79-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:07:45.795  INFO 22 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-03-29T13:07:45.81-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:07:45.810  INFO 22 --- [           main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-03-29T13:07:45.81-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:07:45.812  INFO 22 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.11
+2017-03-29T13:07:46.03-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:07:46.036  INFO 22 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-03-29T13:07:46.03-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:07:46.036  INFO 22 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2887 ms
+2017-03-29T13:07:46.30-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:07:46.305  INFO 22 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-03-29T13:07:46.31-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:07:46.309  INFO 22 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-03-29T13:07:46.31-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:07:46.309  INFO 22 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-03-29T13:07:46.31-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:07:46.309  INFO 22 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-03-29T13:07:46.31-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:07:46.309  INFO 22 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-03-29T13:07:46.49-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:07:46.479  INFO 22 --- [           main] o.f.core.internal.util.VersionPrinter    : Flyway 3.2.1 by Boxfuse
+2017-03-29T13:07:46.49-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:07:46.484  WARN 22 --- [           main] o.a.tomcat.jdbc.pool.ConnectionPool      : maxIdle is larger than maxActive, setting maxIdle to: 4
+2017-03-29T13:07:46.88-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:07:46.876  INFO 22 --- [           main] o.f.c.i.dbsupport.DbSupportFactory       : Database: jdbc:mysql://us-cdbr-iron-east-03.cleardb.net/ad_df4a63e908b7910?user=b24ab67922203d&password=2d2b8769 (MySQL 5.5)
+2017-03-29T13:07:46.92-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:07:46.928  INFO 22 --- [           main] o.f.core.internal.command.DbValidate     : Validated 1 migration (execution time 00:00.029s)
+2017-03-29T13:07:46.93-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:07:46.934  WARN 22 --- [           main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Invocation of init method failed; nested exception is org.flywaydb.core.api.FlywayException: Validate failed. Migration Checksum mismatch for migration 1.0.0
+2017-03-29T13:07:46.93-0400 [APP/PROC/WEB/0]OUT -> Applied to database : 1062642648
+2017-03-29T13:07:46.93-0400 [APP/PROC/WEB/0]OUT -> Resolved locally    : -2005085783
+2017-03-29T13:07:46.95-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:07:46.951  INFO 22 --- [           main] o.apache.catalina.core.StandardService   : Stopping service Tomcat
+2017-03-29T13:07:46.96-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:07:46.967  INFO 22 --- [           main] utoConfigurationReportLoggingInitializer : 
+2017-03-29T13:07:46.96-0400 [APP/PROC/WEB/0]OUT Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-03-29T13:07:46.97-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:07:46.976 ERROR 22 --- [           main] o.s.boot.SpringApplication               : Application startup failed
+2017-03-29T13:07:46.97-0400 [APP/PROC/WEB/0]OUT org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Invocation of init method failed; nested exception is org.flywaydb.core.api.FlywayException: Validate failed. Migration Checksum mismatch for migration 1.0.0
+2017-03-29T13:07:46.97-0400 [APP/PROC/WEB/0]OUT -> Applied to database : 1062642648
+2017-03-29T13:07:46.97-0400 [APP/PROC/WEB/0]OUT -> Resolved locally    : -2005085783
+2017-03-29T13:07:46.97-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1628) ~[spring-beans-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+2017-03-29T13:07:46.97-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+2017-03-29T13:07:46.97-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) ~[spring-beans-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+2017-03-29T13:07:46.97-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+2017-03-29T13:07:46.97-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+2017-03-29T13:07:46.97-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+2017-03-29T13:07:46.97-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+2017-03-29T13:07:46.97-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:296) ~[spring-beans-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+2017-03-29T13:07:46.97-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+2017-03-29T13:07:46.97-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1081) ~[spring-context-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+2017-03-29T13:07:46.97-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:856) ~[spring-context-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+2017-03-29T13:07:46.97-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542) ~[spring-context-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+2017-03-29T13:07:46.97-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) ~[spring-boot-1.5.2.RELEASE.jar!/:1.5.2.RELEASE]
+2017-03-29T13:07:46.97-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737) [spring-boot-1.5.2.RELEASE.jar!/:1.5.2.RELEASE]
+2017-03-29T13:07:46.97-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370) [spring-boot-1.5.2.RELEASE.jar!/:1.5.2.RELEASE]
+2017-03-29T13:07:46.97-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) [spring-boot-1.5.2.RELEASE.jar!/:1.5.2.RELEASE]
+2017-03-29T13:07:46.97-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162) [spring-boot-1.5.2.RELEASE.jar!/:1.5.2.RELEASE]
+2017-03-29T13:07:46.97-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151) [spring-boot-1.5.2.RELEASE.jar!/:1.5.2.RELEASE]
+2017-03-29T13:07:46.97-0400 [APP/PROC/WEB/0]OUT 	at com.github.jofowler.app.StockSpringBootStarter.main(StockSpringBootStarter.java:9) [classes/:na]
+2017-03-29T13:07:46.97-0400 [APP/PROC/WEB/0]OUT 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_121]
+2017-03-29T13:07:46.97-0400 [APP/PROC/WEB/0]OUT 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_121]
+2017-03-29T13:07:46.97-0400 [APP/PROC/WEB/0]OUT 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_121]
+2017-03-29T13:07:46.97-0400 [APP/PROC/WEB/0]OUT 	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_121]
+2017-03-29T13:07:46.97-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48) [app/:na]
+2017-03-29T13:07:46.97-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87) [app/:na]
+2017-03-29T13:07:46.97-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.boot.loader.Launcher.launch(Launcher.java:50) [app/:na]
+2017-03-29T13:07:46.97-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:51) [app/:na]
+2017-03-29T13:07:46.97-0400 [APP/PROC/WEB/0]OUT Caused by: org.flywaydb.core.api.FlywayException: Validate failed. Migration Checksum mismatch for migration 1.0.0
+2017-03-29T13:07:46.97-0400 [APP/PROC/WEB/0]OUT -> Applied to database : 1062642648
+2017-03-29T13:07:46.97-0400 [APP/PROC/WEB/0]OUT -> Resolved locally    : -2005085783
+2017-03-29T13:07:46.97-0400 [APP/PROC/WEB/0]OUT 	at org.flywaydb.core.Flyway.doValidate(Flyway.java:1108) ~[flyway-core-3.2.1.jar!/:na]
+2017-03-29T13:07:46.97-0400 [APP/PROC/WEB/0]OUT 	at org.flywaydb.core.Flyway.access$300(Flyway.java:62) ~[flyway-core-3.2.1.jar!/:na]
+2017-03-29T13:07:46.97-0400 [APP/PROC/WEB/0]OUT 	at org.flywaydb.core.Flyway$1.execute(Flyway.java:1012) ~[flyway-core-3.2.1.jar!/:na]
+2017-03-29T13:07:46.97-0400 [APP/PROC/WEB/0]OUT 	at org.flywaydb.core.Flyway$1.execute(Flyway.java:1006) ~[flyway-core-3.2.1.jar!/:na]
+2017-03-29T13:07:46.97-0400 [APP/PROC/WEB/0]OUT 	at org.flywaydb.core.Flyway.execute(Flyway.java:1418) ~[flyway-core-3.2.1.jar!/:na]
+2017-03-29T13:07:46.97-0400 [APP/PROC/WEB/0]OUT 	at org.flywaydb.core.Flyway.migrate(Flyway.java:1006) ~[flyway-core-3.2.1.jar!/:na]
+2017-03-29T13:07:46.97-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.boot.autoconfigure.flyway.FlywayMigrationInitializer.afterPropertiesSet(FlywayMigrationInitializer.java:66) ~[spring-boot-autoconfigure-1.5.2.RELEASE.jar!/:1.5.2.RELEASE]
+2017-03-29T13:07:46.97-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687) ~[spring-beans-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+2017-03-29T13:07:46.97-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624) ~[spring-beans-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+2017-03-29T13:07:46.97-0400 [APP/PROC/WEB/0]OUT 	... 26 common frames omitted
+2017-03-29T13:07:47.00-0400 [APP/PROC/WEB/0]OUT Exit status 1
+2017-03-29T13:07:47.04-0400 [CELL/0]     OUT Exit status 0
+2017-03-29T13:07:47.47-0400 [CELL/0]     OUT Destroying container
+2017-03-29T13:07:47.50-0400 [API/0]      OUT Process has crashed with type: "web"
+2017-03-29T13:07:47.51-0400 [API/0]      OUT App instance exited with guid a4c2e9de-2ecb-4110-9ac5-5f77ac5e8f0c payload: {"instance"=>"", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"2 error(s) occurred:\n\n* 2 error(s) occurred:\n\n* Exited with status 1\n* cancelled\n* 1 error(s) occurred:\n\n* cancelled", "crash_count"=>1, "crash_timestamp"=>1490807267198201514, "version"=>"0042f385-0401-4fb4-86b0-11a55c92f99f"}
+2017-03-29T13:07:47.94-0400 [CELL/0]     OUT Creating container
+2017-03-29T13:07:48.05-0400 [CELL/0]     OUT Successfully destroyed container
+2017-03-29T13:07:48.65-0400 [CELL/0]     OUT Successfully created container
+2017-03-29T13:07:52.57-0400 [CELL/0]     OUT Starting health monitoring of container
+2017-03-29T13:07:55.88-0400 [APP/PROC/WEB/0]OUT   .   ____          _            __ _ _
+2017-03-29T13:07:55.88-0400 [APP/PROC/WEB/0]OUT  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2017-03-29T13:07:55.88-0400 [APP/PROC/WEB/0]OUT ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2017-03-29T13:07:55.88-0400 [APP/PROC/WEB/0]OUT  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2017-03-29T13:07:55.88-0400 [APP/PROC/WEB/0]OUT   '  |____| .__|_| |_|_| |_\__, | / / / /
+2017-03-29T13:07:55.88-0400 [APP/PROC/WEB/0]OUT  =========|_|==============|___/=/_/_/_/
+2017-03-29T13:07:55.89-0400 [APP/PROC/WEB/0]OUT  :: Spring Boot ::        (v1.5.2.RELEASE)
+2017-03-29T13:07:56.37-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:07:56.360  INFO 14 --- [           main] pertySourceApplicationContextInitializer : Adding 'cloud' PropertySource to ApplicationContext
+2017-03-29T13:07:56.68-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:07:56.686  INFO 14 --- [           main] nfigurationApplicationContextInitializer : Adding cloud service auto-reconfiguration to ApplicationContext
+2017-03-29T13:07:56.75-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:07:56.756  INFO 14 --- [           main] c.g.jofowler.app.StockSpringBootStarter  : Starting StockSpringBootStarter on 0382225c-8098-4960-45ae-b063a0ca0d7c with PID 14 (/home/vcap/app/BOOT-INF/classes started by vcap in /home/vcap/app)
+2017-03-29T13:07:56.75-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:07:56.756  INFO 14 --- [           main] c.g.jofowler.app.StockSpringBootStarter  : The following profiles are active: cloud
+2017-03-29T13:07:57.00-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:07:56.999  INFO 14 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1a6c5a9e: startup date [Wed Mar 29 17:07:56 UTC 2017]; root of context hierarchy
+2017-03-29T13:08:01.11-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:08:01.109  INFO 14 --- [           main] urceCloudServiceBeanFactoryPostProcessor : Auto-reconfiguring beans of type javax.sql.DataSource
+2017-03-29T13:08:01.14-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:08:01.140  INFO 14 --- [           main] o.c.r.o.s.c.s.r.PooledDataSourceCreator  : Found Tomcat high-performance connection pool on the classpath. Using it for DataSource connection pooling.
+2017-03-29T13:08:01.29-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:08:01.283  INFO 14 --- [           main] urceCloudServiceBeanFactoryPostProcessor : Reconfigured bean dataSource into singleton service connector org.apache.tomcat.jdbc.pool.DataSource@74650e52{ConnectionPool[defaultAutoCommit=null; defaultReadOnly=null; defaultTransactionIsolation=-1; defaultCatalog=null; driverClassName=com.mysql.jdbc.Driver; maxActive=4; maxIdle=100; minIdle=0; initialSize=0; maxWait=30000; testOnBorrow=true; testOnReturn=false; timeBetweenEvictionRunsMillis=5000; numTestsPerEvictionRun=0; minEvictableIdleTimeMillis=60000; testWhileIdle=false; testOnConnect=false; password=********; url=jdbc:mysql://us-cdbr-iron-east-03.cleardb.net/ad_df4a63e908b7910?user=b24ab67922203d&password=2d2b8769; username=null; validationQuery=/* ping */ SELECT 1; validationQueryTimeout=-1; validatorClassName=null; validationInterval=30000; accessToUnderlyingConnectionAllowed=true; removeAbandoned=false; removeAbandonedTimeout=60; logAbandoned=false; connectionProperties=null; initSQL=null; jdbcInterceptors=null; jmxEnabled=true; fairQueue=true; useEquals=true; abandonWhenPercentageFull=0; maxAge=0; useLock=false; dataSource=null; dataSourceJNDI=null; suspectTimeout=0; alternateUsernameAllowed=false; commitOnReturn=false; rollbackOnReturn=false; useDisposableConnectionFacade=true; logValidationErrors=false; propagateInterruptState=false; ignoreExceptionOnPreLoad=false; }
+2017-03-29T13:08:01.30-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:08:01.297  INFO 14 --- [           main] nateCloudServiceBeanFactoryPostProcessor : Auto-reconfiguring beans of type org.springframework.orm.hibernate3.AbstractSessionFactoryBean
+2017-03-29T13:08:01.30-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:08:01.300  INFO 14 --- [           main] nateCloudServiceBeanFactoryPostProcessor : Auto-reconfiguring beans of type org.springframework.orm.hibernate4.LocalSessionFactoryBean
+2017-03-29T13:08:01.32-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:08:01.319  INFO 14 --- [           main] .JpaCloudServiceBeanFactoryPostProcessor : Auto-reconfiguring beans of type org.springframework.orm.jpa.AbstractEntityManagerFactoryBean
+2017-03-29T13:08:02.06-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:08:02.061  INFO 14 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e767962f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-29T13:08:03.19-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:08:03.189  INFO 14 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-03-29T13:08:03.25-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:08:03.250  INFO 14 --- [           main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-03-29T13:08:03.25-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:08:03.252  INFO 14 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.11
+2017-03-29T13:08:03.68-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:08:03.681  INFO 14 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-03-29T13:08:03.68-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:08:03.681  INFO 14 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6695 ms
+2017-03-29T13:08:04.06-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:08:04.058  INFO 14 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-03-29T13:08:04.07-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:08:04.067  INFO 14 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-03-29T13:08:04.07-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:08:04.070  INFO 14 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-03-29T13:08:04.07-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:08:04.070  INFO 14 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-03-29T13:08:04.07-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:08:04.070  INFO 14 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-03-29T13:08:04.27-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:08:04.276  INFO 14 --- [           main] o.f.core.internal.util.VersionPrinter    : Flyway 3.2.1 by Boxfuse
+2017-03-29T13:08:04.28-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:08:04.284  WARN 14 --- [           main] o.a.tomcat.jdbc.pool.ConnectionPool      : maxIdle is larger than maxActive, setting maxIdle to: 4
+2017-03-29T13:08:04.93-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:08:04.937  INFO 14 --- [           main] o.f.c.i.dbsupport.DbSupportFactory       : Database: jdbc:mysql://us-cdbr-iron-east-03.cleardb.net/ad_df4a63e908b7910?user=b24ab67922203d&password=2d2b8769 (MySQL 5.5)
+2017-03-29T13:08:05.06-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:08:05.060  INFO 14 --- [           main] o.f.core.internal.command.DbValidate     : Validated 1 migration (execution time 00:00.072s)
+2017-03-29T13:08:05.09-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:08:05.090  WARN 14 --- [           main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Invocation of init method failed; nested exception is org.flywaydb.core.api.FlywayException: Validate failed. Migration Checksum mismatch for migration 1.0.0
+2017-03-29T13:08:05.09-0400 [APP/PROC/WEB/0]OUT -> Applied to database : 1062642648
+2017-03-29T13:08:05.09-0400 [APP/PROC/WEB/0]OUT -> Resolved locally    : -2005085783
+2017-03-29T13:08:05.10-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:08:05.108  INFO 14 --- [           main] o.apache.catalina.core.StandardService   : Stopping service Tomcat
+2017-03-29T13:08:05.15-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:08:05.158  INFO 14 --- [           main] utoConfigurationReportLoggingInitializer : 
+2017-03-29T13:08:05.15-0400 [APP/PROC/WEB/0]OUT Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-03-29T13:08:05.17-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:08:05.173 ERROR 14 --- [           main] o.s.boot.SpringApplication               : Application startup failed
+2017-03-29T13:08:05.17-0400 [APP/PROC/WEB/0]OUT org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Invocation of init method failed; nested exception is org.flywaydb.core.api.FlywayException: Validate failed. Migration Checksum mismatch for migration 1.0.0
+2017-03-29T13:08:05.17-0400 [APP/PROC/WEB/0]OUT -> Applied to database : 1062642648
+2017-03-29T13:08:05.17-0400 [APP/PROC/WEB/0]OUT -> Resolved locally    : -2005085783
+2017-03-29T13:08:05.17-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1628) ~[spring-beans-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+2017-03-29T13:08:05.17-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+2017-03-29T13:08:05.17-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) ~[spring-beans-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+2017-03-29T13:08:05.17-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+2017-03-29T13:08:05.17-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+2017-03-29T13:08:05.17-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+2017-03-29T13:08:05.17-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+2017-03-29T13:08:05.17-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:296) ~[spring-beans-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+2017-03-29T13:08:05.17-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+2017-03-29T13:08:05.17-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1081) ~[spring-context-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+2017-03-29T13:08:05.17-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:856) ~[spring-context-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+2017-03-29T13:08:05.17-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542) ~[spring-context-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+2017-03-29T13:08:05.17-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) ~[spring-boot-1.5.2.RELEASE.jar!/:1.5.2.RELEASE]
+2017-03-29T13:08:05.17-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737) [spring-boot-1.5.2.RELEASE.jar!/:1.5.2.RELEASE]
+2017-03-29T13:08:05.17-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370) [spring-boot-1.5.2.RELEASE.jar!/:1.5.2.RELEASE]
+2017-03-29T13:08:05.17-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) [spring-boot-1.5.2.RELEASE.jar!/:1.5.2.RELEASE]
+2017-03-29T13:08:05.17-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162) [spring-boot-1.5.2.RELEASE.jar!/:1.5.2.RELEASE]
+2017-03-29T13:08:05.17-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151) [spring-boot-1.5.2.RELEASE.jar!/:1.5.2.RELEASE]
+2017-03-29T13:08:05.17-0400 [APP/PROC/WEB/0]OUT 	at com.github.jofowler.app.StockSpringBootStarter.main(StockSpringBootStarter.java:9) [classes/:na]
+2017-03-29T13:08:05.17-0400 [APP/PROC/WEB/0]OUT 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_121]
+2017-03-29T13:08:05.17-0400 [APP/PROC/WEB/0]OUT 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_121]
+2017-03-29T13:08:05.17-0400 [APP/PROC/WEB/0]OUT 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_121]
+2017-03-29T13:08:05.17-0400 [APP/PROC/WEB/0]OUT 	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_121]
+2017-03-29T13:08:05.17-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48) [app/:na]
+2017-03-29T13:08:05.17-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87) [app/:na]
+2017-03-29T13:08:05.17-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.boot.loader.Launcher.launch(Launcher.java:50) [app/:na]
+2017-03-29T13:08:05.17-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:51) [app/:na]
+2017-03-29T13:08:05.17-0400 [APP/PROC/WEB/0]OUT Caused by: org.flywaydb.core.api.FlywayException: Validate failed. Migration Checksum mismatch for migration 1.0.0
+2017-03-29T13:08:05.17-0400 [APP/PROC/WEB/0]OUT -> Applied to database : 1062642648
+2017-03-29T13:08:05.17-0400 [APP/PROC/WEB/0]OUT -> Resolved locally    : -2005085783
+2017-03-29T13:08:05.17-0400 [APP/PROC/WEB/0]OUT 	at org.flywaydb.core.Flyway.doValidate(Flyway.java:1108) ~[flyway-core-3.2.1.jar!/:na]
+2017-03-29T13:08:05.17-0400 [APP/PROC/WEB/0]OUT 	at org.flywaydb.core.Flyway.access$300(Flyway.java:62) ~[flyway-core-3.2.1.jar!/:na]
+2017-03-29T13:08:05.17-0400 [APP/PROC/WEB/0]OUT 	at org.flywaydb.core.Flyway$1.execute(Flyway.java:1012) ~[flyway-core-3.2.1.jar!/:na]
+2017-03-29T13:08:05.17-0400 [APP/PROC/WEB/0]OUT 	at org.flywaydb.core.Flyway$1.execute(Flyway.java:1006) ~[flyway-core-3.2.1.jar!/:na]
+2017-03-29T13:08:05.17-0400 [APP/PROC/WEB/0]OUT 	at org.flywaydb.core.Flyway.execute(Flyway.java:1418) ~[flyway-core-3.2.1.jar!/:na]
+2017-03-29T13:08:05.17-0400 [APP/PROC/WEB/0]OUT 	at org.flywaydb.core.Flyway.migrate(Flyway.java:1006) ~[flyway-core-3.2.1.jar!/:na]
+2017-03-29T13:08:05.17-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.boot.autoconfigure.flyway.FlywayMigrationInitializer.afterPropertiesSet(FlywayMigrationInitializer.java:66) ~[spring-boot-autoconfigure-1.5.2.RELEASE.jar!/:1.5.2.RELEASE]
+2017-03-29T13:08:05.17-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687) ~[spring-beans-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+2017-03-29T13:08:05.17-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624) ~[spring-beans-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+2017-03-29T13:08:05.17-0400 [APP/PROC/WEB/0]OUT 	... 26 common frames omitted
+2017-03-29T13:08:05.20-0400 [APP/PROC/WEB/0]OUT Exit status 1
+2017-03-29T13:08:05.23-0400 [CELL/0]     OUT Exit status 0
+2017-03-29T13:08:05.25-0400 [CELL/0]     OUT Destroying container
+2017-03-29T13:08:05.27-0400 [API/5]      OUT Process has crashed with type: "web"
+2017-03-29T13:08:05.32-0400 [API/5]      OUT App instance exited with guid a4c2e9de-2ecb-4110-9ac5-5f77ac5e8f0c payload: {"instance"=>"", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"2 error(s) occurred:\n\n* 2 error(s) occurred:\n\n* Exited with status 1\n* cancelled\n* cancelled", "crash_count"=>2, "crash_timestamp"=>1490807285243783234, "version"=>"0042f385-0401-4fb4-86b0-11a55c92f99f"}
+2017-03-29T13:08:05.86-0400 [CELL/0]     OUT Successfully destroyed container
+2017-03-29T13:08:06.04-0400 [CELL/0]     OUT Creating container
+2017-03-29T13:08:06.78-0400 [CELL/0]     OUT Successfully created container
+2017-03-29T13:08:09.56-0400 [CELL/0]     OUT Starting health monitoring of container
+2017-03-29T13:08:11.59-0400 [APP/PROC/WEB/0]OUT   .   ____          _            __ _ _
+2017-03-29T13:08:11.59-0400 [APP/PROC/WEB/0]OUT  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2017-03-29T13:08:11.59-0400 [APP/PROC/WEB/0]OUT ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2017-03-29T13:08:11.59-0400 [APP/PROC/WEB/0]OUT  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2017-03-29T13:08:11.59-0400 [APP/PROC/WEB/0]OUT   '  |____| .__|_| |_|_| |_\__, | / / / /
+2017-03-29T13:08:11.59-0400 [APP/PROC/WEB/0]OUT  =========|_|==============|___/=/_/_/_/
+2017-03-29T13:08:11.60-0400 [APP/PROC/WEB/0]OUT  :: Spring Boot ::        (v1.5.2.RELEASE)
+2017-03-29T13:08:11.82-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:08:11.806  INFO 23 --- [           main] pertySourceApplicationContextInitializer : Adding 'cloud' PropertySource to ApplicationContext
+2017-03-29T13:08:11.93-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:08:11.930  INFO 23 --- [           main] nfigurationApplicationContextInitializer : Adding cloud service auto-reconfiguration to ApplicationContext
+2017-03-29T13:08:11.94-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:08:11.946  INFO 23 --- [           main] c.g.jofowler.app.StockSpringBootStarter  : Starting StockSpringBootStarter on 493c6dce-8889-4d90-53ff-4165dcbbbc1a with PID 23 (/home/vcap/app/BOOT-INF/classes started by vcap in /home/vcap/app)
+2017-03-29T13:08:11.94-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:08:11.946  INFO 23 --- [           main] c.g.jofowler.app.StockSpringBootStarter  : The following profiles are active: cloud
+2017-03-29T13:08:12.00-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:08:12.003  INFO 23 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1a6c5a9e: startup date [Wed Mar 29 17:08:12 UTC 2017]; root of context hierarchy
+2017-03-29T13:08:13.90-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:08:13.898  INFO 23 --- [           main] urceCloudServiceBeanFactoryPostProcessor : Auto-reconfiguring beans of type javax.sql.DataSource
+2017-03-29T13:08:13.95-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:08:13.949  INFO 23 --- [           main] o.c.r.o.s.c.s.r.PooledDataSourceCreator  : Found Tomcat high-performance connection pool on the classpath. Using it for DataSource connection pooling.
+2017-03-29T13:08:13.98-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:08:13.982  INFO 23 --- [           main] urceCloudServiceBeanFactoryPostProcessor : Reconfigured bean dataSource into singleton service connector org.apache.tomcat.jdbc.pool.DataSource@53f65459{ConnectionPool[defaultAutoCommit=null; defaultReadOnly=null; defaultTransactionIsolation=-1; defaultCatalog=null; driverClassName=com.mysql.jdbc.Driver; maxActive=4; maxIdle=100; minIdle=0; initialSize=0; maxWait=30000; testOnBorrow=true; testOnReturn=false; timeBetweenEvictionRunsMillis=5000; numTestsPerEvictionRun=0; minEvictableIdleTimeMillis=60000; testWhileIdle=false; testOnConnect=false; password=********; url=jdbc:mysql://us-cdbr-iron-east-03.cleardb.net/ad_df4a63e908b7910?user=b24ab67922203d&password=2d2b8769; username=null; validationQuery=/* ping */ SELECT 1; validationQueryTimeout=-1; validatorClassName=null; validationInterval=30000; accessToUnderlyingConnectionAllowed=true; removeAbandoned=false; removeAbandonedTimeout=60; logAbandoned=false; connectionProperties=null; initSQL=null; jdbcInterceptors=null; jmxEnabled=true; fairQueue=true; useEquals=true; abandonWhenPercentageFull=0; maxAge=0; useLock=false; dataSource=null; dataSourceJNDI=null; suspectTimeout=0; alternateUsernameAllowed=false; commitOnReturn=false; rollbackOnReturn=false; useDisposableConnectionFacade=true; logValidationErrors=false; propagateInterruptState=false; ignoreExceptionOnPreLoad=false; }
+2017-03-29T13:08:13.98-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:08:13.984  INFO 23 --- [           main] nateCloudServiceBeanFactoryPostProcessor : Auto-reconfiguring beans of type org.springframework.orm.hibernate3.AbstractSessionFactoryBean
+2017-03-29T13:08:13.98-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:08:13.986  INFO 23 --- [           main] nateCloudServiceBeanFactoryPostProcessor : Auto-reconfiguring beans of type org.springframework.orm.hibernate4.LocalSessionFactoryBean
+2017-03-29T13:08:13.98-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:08:13.987  INFO 23 --- [           main] .JpaCloudServiceBeanFactoryPostProcessor : Auto-reconfiguring beans of type org.springframework.orm.jpa.AbstractEntityManagerFactoryBean
+2017-03-29T13:08:14.30-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:08:14.290  INFO 23 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ab823ec9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-29T13:08:14.86-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:08:14.867  INFO 23 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-03-29T13:08:14.88-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:08:14.888  INFO 23 --- [           main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-03-29T13:08:14.89-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:08:14.890  INFO 23 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.11
+2017-03-29T13:08:15.04-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:08:15.047  INFO 23 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-03-29T13:08:15.04-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:08:15.047  INFO 23 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3047 ms
+2017-03-29T13:08:15.22-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:08:15.221  INFO 23 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-03-29T13:08:15.22-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:08:15.226  INFO 23 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-03-29T13:08:15.22-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:08:15.226  INFO 23 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-03-29T13:08:15.22-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:08:15.227  INFO 23 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-03-29T13:08:15.22-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:08:15.227  INFO 23 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-03-29T13:08:15.35-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:08:15.358  INFO 23 --- [           main] o.f.core.internal.util.VersionPrinter    : Flyway 3.2.1 by Boxfuse
+2017-03-29T13:08:15.36-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:08:15.363  WARN 23 --- [           main] o.a.tomcat.jdbc.pool.ConnectionPool      : maxIdle is larger than maxActive, setting maxIdle to: 4
+2017-03-29T13:08:15.69-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:08:15.694  WARN 23 --- [           main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Invocation of init method failed; nested exception is org.flywaydb.core.api.FlywayException: Unable to obtain Jdbc connection from DataSource
+2017-03-29T13:08:15.70-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:08:15.707  INFO 23 --- [           main] o.apache.catalina.core.StandardService   : Stopping service Tomcat
+2017-03-29T13:08:15.72-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:08:15.723  INFO 23 --- [           main] utoConfigurationReportLoggingInitializer : 
+2017-03-29T13:08:15.72-0400 [APP/PROC/WEB/0]OUT Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:08:15.735 ERROR 23 --- [           main] o.s.boot.SpringApplication               : Application startup failed
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Invocation of init method failed; nested exception is org.flywaydb.core.api.FlywayException: Unable to obtain Jdbc connection from DataSource
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1628) ~[spring-beans-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) ~[spring-beans-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:296) ~[spring-beans-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1081) ~[spring-context-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:856) ~[spring-context-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542) ~[spring-context-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) ~[spring-boot-1.5.2.RELEASE.jar!/:1.5.2.RELEASE]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737) [spring-boot-1.5.2.RELEASE.jar!/:1.5.2.RELEASE]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370) [spring-boot-1.5.2.RELEASE.jar!/:1.5.2.RELEASE]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) [spring-boot-1.5.2.RELEASE.jar!/:1.5.2.RELEASE]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162) [spring-boot-1.5.2.RELEASE.jar!/:1.5.2.RELEASE]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151) [spring-boot-1.5.2.RELEASE.jar!/:1.5.2.RELEASE]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at com.github.jofowler.app.StockSpringBootStarter.main(StockSpringBootStarter.java:9) [classes/:na]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_121]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_121]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_121]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_121]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48) [app/:na]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87) [app/:na]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.boot.loader.Launcher.launch(Launcher.java:50) [app/:na]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:51) [app/:na]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT Caused by: org.flywaydb.core.api.FlywayException: Unable to obtain Jdbc connection from DataSource
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at org.flywaydb.core.internal.util.jdbc.JdbcUtils.openConnection(JdbcUtils.java:56) ~[flyway-core-3.2.1.jar!/:na]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at org.flywaydb.core.Flyway.execute(Flyway.java:1385) ~[flyway-core-3.2.1.jar!/:na]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at org.flywaydb.core.Flyway.migrate(Flyway.java:1006) ~[flyway-core-3.2.1.jar!/:na]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.boot.autoconfigure.flyway.FlywayMigrationInitializer.afterPropertiesSet(FlywayMigrationInitializer.java:66) ~[spring-boot-autoconfigure-1.5.2.RELEASE.jar!/:1.5.2.RELEASE]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687) ~[spring-beans-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624) ~[spring-beans-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	... 26 common frames omitted
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: User 'b24ab67922203d' has exceeded the 'max_user_connections' resource (current value: 4)
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_121]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_121]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_121]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_121]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404) ~[mysql-connector-java-5.1.37.jar!/:5.1.37]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at com.mysql.jdbc.Util.getInstance(Util.java:387) ~[mysql-connector-java-5.1.37.jar!/:5.1.37]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:941) ~[mysql-connector-java-5.1.37.jar!/:5.1.37]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3870) ~[mysql-connector-java-5.1.37.jar!/:5.1.37]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3806) ~[mysql-connector-java-5.1.37.jar!/:5.1.37]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871) ~[mysql-connector-java-5.1.37.jar!/:5.1.37]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1686) ~[mysql-connector-java-5.1.37.jar!/:5.1.37]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1207) ~[mysql-connector-java-5.1.37.jar!/:5.1.37]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2254) ~[mysql-connector-java-5.1.37.jar!/:5.1.37]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2285) ~[mysql-connector-java-5.1.37.jar!/:5.1.37]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2084) ~[mysql-connector-java-5.1.37.jar!/:5.1.37]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:795) ~[mysql-connector-java-5.1.37.jar!/:5.1.37]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44) ~[mysql-connector-java-5.1.37.jar!/:5.1.37]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_121]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_121]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_121]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_121]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404) ~[mysql-connector-java-5.1.37.jar!/:5.1.37]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:400) ~[mysql-connector-java-5.1.37.jar!/:5.1.37]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:327) ~[mysql-connector-java-5.1.37.jar!/:5.1.37]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:307) ~[tomcat-jdbc-8.0.30.jar!/:na]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:200) ~[tomcat-jdbc-8.0.30.jar!/:na]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:708) ~[tomcat-jdbc-8.0.30.jar!/:na]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:642) ~[tomcat-jdbc-8.0.30.jar!/:na]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at org.apache.tomcat.jdbc.pool.ConnectionPool.getConnection(ConnectionPool.java:185) ~[tomcat-jdbc-8.0.30.jar!/:na]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:126) ~[tomcat-jdbc-8.0.30.jar!/:na]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	at org.flywaydb.core.internal.util.jdbc.JdbcUtils.openConnection(JdbcUtils.java:50) ~[flyway-core-3.2.1.jar!/:na]
+2017-03-29T13:08:15.73-0400 [APP/PROC/WEB/0]OUT 	... 31 common frames omitted
+2017-03-29T13:08:15.78-0400 [APP/PROC/WEB/0]OUT Exit status 1
+2017-03-29T13:08:15.81-0400 [CELL/0]     OUT Exit status 0
+2017-03-29T13:08:15.82-0400 [CELL/0]     OUT Destroying container
+2017-03-29T13:08:15.84-0400 [API/7]      OUT Process has crashed with type: "web"
+2017-03-29T13:08:15.86-0400 [API/7]      OUT App instance exited with guid a4c2e9de-2ecb-4110-9ac5-5f77ac5e8f0c payload: {"instance"=>"", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"2 error(s) occurred:\n\n* 2 error(s) occurred:\n\n* Exited with status 1\n* cancelled\n* cancelled", "crash_count"=>3, "crash_timestamp"=>1490807295817874239, "version"=>"0042f385-0401-4fb4-86b0-11a55c92f99f"}
+2017-03-29T13:08:16.39-0400 [CELL/0]     OUT Successfully destroyed container
+2017-03-29T13:08:56.48-0400 [CELL/0]     OUT Creating container
+2017-03-29T13:08:56.97-0400 [CELL/0]     OUT Successfully created container
+2017-03-29T13:09:00.98-0400 [CELL/0]     OUT Starting health monitoring of container
+2017-03-29T13:09:03.67-0400 [APP/PROC/WEB/0]OUT   .   ____          _            __ _ _
+2017-03-29T13:09:03.67-0400 [APP/PROC/WEB/0]OUT  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2017-03-29T13:09:03.67-0400 [APP/PROC/WEB/0]OUT ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2017-03-29T13:09:03.67-0400 [APP/PROC/WEB/0]OUT  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2017-03-29T13:09:03.67-0400 [APP/PROC/WEB/0]OUT   '  |____| .__|_| |_|_| |_\__, | / / / /
+2017-03-29T13:09:03.67-0400 [APP/PROC/WEB/0]OUT  =========|_|==============|___/=/_/_/_/
+2017-03-29T13:09:03.67-0400 [APP/PROC/WEB/0]OUT  :: Spring Boot ::        (v1.5.2.RELEASE)
+2017-03-29T13:09:03.97-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:09:03.968  INFO 14 --- [           main] pertySourceApplicationContextInitializer : Adding 'cloud' PropertySource to ApplicationContext
+2017-03-29T13:09:04.23-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:09:04.238  INFO 14 --- [           main] nfigurationApplicationContextInitializer : Adding cloud service auto-reconfiguration to ApplicationContext
+2017-03-29T13:09:04.31-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:09:04.313  INFO 14 --- [           main] c.g.jofowler.app.StockSpringBootStarter  : Starting StockSpringBootStarter on f40ae3b2-588e-4cc6-667e-d92307995399 with PID 14 (/home/vcap/app/BOOT-INF/classes started by vcap in /home/vcap/app)
+2017-03-29T13:09:04.32-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:09:04.325  INFO 14 --- [           main] c.g.jofowler.app.StockSpringBootStarter  : The following profiles are active: cloud
+2017-03-29T13:09:04.48-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:09:04.481  INFO 14 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1a6c5a9e: startup date [Wed Mar 29 17:09:04 UTC 2017]; root of context hierarchy
+2017-03-29T13:09:07.58-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:09:07.589  INFO 14 --- [           main] urceCloudServiceBeanFactoryPostProcessor : Auto-reconfiguring beans of type javax.sql.DataSource
+2017-03-29T13:09:07.65-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:09:07.650  INFO 14 --- [           main] o.c.r.o.s.c.s.r.PooledDataSourceCreator  : Found Tomcat high-performance connection pool on the classpath. Using it for DataSource connection pooling.
+2017-03-29T13:09:07.70-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:09:07.705  INFO 14 --- [           main] urceCloudServiceBeanFactoryPostProcessor : Reconfigured bean dataSource into singleton service connector org.apache.tomcat.jdbc.pool.DataSource@1786dec2{ConnectionPool[defaultAutoCommit=null; defaultReadOnly=null; defaultTransactionIsolation=-1; defaultCatalog=null; driverClassName=com.mysql.jdbc.Driver; maxActive=4; maxIdle=100; minIdle=0; initialSize=0; maxWait=30000; testOnBorrow=true; testOnReturn=false; timeBetweenEvictionRunsMillis=5000; numTestsPerEvictionRun=0; minEvictableIdleTimeMillis=60000; testWhileIdle=false; testOnConnect=false; password=********; url=jdbc:mysql://us-cdbr-iron-east-03.cleardb.net/ad_df4a63e908b7910?user=b24ab67922203d&password=2d2b8769; username=null; validationQuery=/* ping */ SELECT 1; validationQueryTimeout=-1; validatorClassName=null; validationInterval=30000; accessToUnderlyingConnectionAllowed=true; removeAbandoned=false; removeAbandonedTimeout=60; logAbandoned=false; connectionProperties=null; initSQL=null; jdbcInterceptors=null; jmxEnabled=true; fairQueue=true; useEquals=true; abandonWhenPercentageFull=0; maxAge=0; useLock=false; dataSource=null; dataSourceJNDI=null; suspectTimeout=0; alternateUsernameAllowed=false; commitOnReturn=false; rollbackOnReturn=false; useDisposableConnectionFacade=true; logValidationErrors=false; propagateInterruptState=false; ignoreExceptionOnPreLoad=false; }
+2017-03-29T13:09:07.70-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:09:07.708  INFO 14 --- [           main] nateCloudServiceBeanFactoryPostProcessor : Auto-reconfiguring beans of type org.springframework.orm.hibernate3.AbstractSessionFactoryBean
+2017-03-29T13:09:07.71-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:09:07.711  INFO 14 --- [           main] nateCloudServiceBeanFactoryPostProcessor : Auto-reconfiguring beans of type org.springframework.orm.hibernate4.LocalSessionFactoryBean
+2017-03-29T13:09:07.71-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:09:07.713  INFO 14 --- [           main] .JpaCloudServiceBeanFactoryPostProcessor : Auto-reconfiguring beans of type org.springframework.orm.jpa.AbstractEntityManagerFactoryBean
+2017-03-29T13:09:08.13-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:09:08.134  INFO 14 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1cf2411e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-29T13:09:09.03-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:09:09.035  INFO 14 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-03-29T13:09:09.07-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:09:09.072  INFO 14 --- [           main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-03-29T13:09:09.07-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:09:09.074  INFO 14 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.11
+2017-03-29T13:09:09.30-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:09:09.307  INFO 14 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-03-29T13:09:09.30-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:09:09.307  INFO 14 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4832 ms
+2017-03-29T13:09:09.64-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:09:09.639  INFO 14 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-03-29T13:09:09.64-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:09:09.647  INFO 14 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-03-29T13:09:09.64-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:09:09.649  INFO 14 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-03-29T13:09:09.64-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:09:09.649  INFO 14 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-03-29T13:09:09.64-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:09:09.649  INFO 14 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-03-29T13:09:09.82-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:09:09.822  INFO 14 --- [           main] o.f.core.internal.util.VersionPrinter    : Flyway 3.2.1 by Boxfuse
+2017-03-29T13:09:09.83-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:09:09.832  WARN 14 --- [           main] o.a.tomcat.jdbc.pool.ConnectionPool      : maxIdle is larger than maxActive, setting maxIdle to: 4
+2017-03-29T13:09:10.26-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:09:10.264  WARN 14 --- [           main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Invocation of init method failed; nested exception is org.flywaydb.core.api.FlywayException: Unable to obtain Jdbc connection from DataSource
+2017-03-29T13:09:10.28-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:09:10.287  INFO 14 --- [           main] o.apache.catalina.core.StandardService   : Stopping service Tomcat
+2017-03-29T13:09:10.31-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:09:10.314  INFO 14 --- [           main] utoConfigurationReportLoggingInitializer : 
+2017-03-29T13:09:10.31-0400 [APP/PROC/WEB/0]OUT Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 2017-03-29 17:09:10.325 ERROR 14 --- [           main] o.s.boot.SpringApplication               : Application startup failed
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Invocation of init method failed; nested exception is org.flywaydb.core.api.FlywayException: Unable to obtain Jdbc connection from DataSource
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1628) ~[spring-beans-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) ~[spring-beans-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:296) ~[spring-beans-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1081) ~[spring-context-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:856) ~[spring-context-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542) ~[spring-context-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) ~[spring-boot-1.5.2.RELEASE.jar!/:1.5.2.RELEASE]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737) [spring-boot-1.5.2.RELEASE.jar!/:1.5.2.RELEASE]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370) [spring-boot-1.5.2.RELEASE.jar!/:1.5.2.RELEASE]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) [spring-boot-1.5.2.RELEASE.jar!/:1.5.2.RELEASE]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162) [spring-boot-1.5.2.RELEASE.jar!/:1.5.2.RELEASE]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151) [spring-boot-1.5.2.RELEASE.jar!/:1.5.2.RELEASE]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at com.github.jofowler.app.StockSpringBootStarter.main(StockSpringBootStarter.java:9) [classes/:na]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_121]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_121]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_121]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_121]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48) [app/:na]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87) [app/:na]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.boot.loader.Launcher.launch(Launcher.java:50) [app/:na]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:51) [app/:na]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT Caused by: org.flywaydb.core.api.FlywayException: Unable to obtain Jdbc connection from DataSource
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at org.flywaydb.core.internal.util.jdbc.JdbcUtils.openConnection(JdbcUtils.java:56) ~[flyway-core-3.2.1.jar!/:na]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at org.flywaydb.core.Flyway.execute(Flyway.java:1385) ~[flyway-core-3.2.1.jar!/:na]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at org.flywaydb.core.Flyway.migrate(Flyway.java:1006) ~[flyway-core-3.2.1.jar!/:na]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.boot.autoconfigure.flyway.FlywayMigrationInitializer.afterPropertiesSet(FlywayMigrationInitializer.java:66) ~[spring-boot-autoconfigure-1.5.2.RELEASE.jar!/:1.5.2.RELEASE]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687) ~[spring-beans-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624) ~[spring-beans-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	... 26 common frames omitted
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: User 'b24ab67922203d' has exceeded the 'max_user_connections' resource (current value: 4)
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_121]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_121]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_121]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_121]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404) ~[mysql-connector-java-5.1.37.jar!/:5.1.37]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at com.mysql.jdbc.Util.getInstance(Util.java:387) ~[mysql-connector-java-5.1.37.jar!/:5.1.37]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:941) ~[mysql-connector-java-5.1.37.jar!/:5.1.37]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3870) ~[mysql-connector-java-5.1.37.jar!/:5.1.37]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3806) ~[mysql-connector-java-5.1.37.jar!/:5.1.37]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871) ~[mysql-connector-java-5.1.37.jar!/:5.1.37]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1686) ~[mysql-connector-java-5.1.37.jar!/:5.1.37]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1207) ~[mysql-connector-java-5.1.37.jar!/:5.1.37]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2254) ~[mysql-connector-java-5.1.37.jar!/:5.1.37]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2285) ~[mysql-connector-java-5.1.37.jar!/:5.1.37]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2084) ~[mysql-connector-java-5.1.37.jar!/:5.1.37]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:795) ~[mysql-connector-java-5.1.37.jar!/:5.1.37]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44) ~[mysql-connector-java-5.1.37.jar!/:5.1.37]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_121]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_121]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_121]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_121]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404) ~[mysql-connector-java-5.1.37.jar!/:5.1.37]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:400) ~[mysql-connector-java-5.1.37.jar!/:5.1.37]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:327) ~[mysql-connector-java-5.1.37.jar!/:5.1.37]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:307) ~[tomcat-jdbc-8.0.30.jar!/:na]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:200) ~[tomcat-jdbc-8.0.30.jar!/:na]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:708) ~[tomcat-jdbc-8.0.30.jar!/:na]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:642) ~[tomcat-jdbc-8.0.30.jar!/:na]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at org.apache.tomcat.jdbc.pool.ConnectionPool.getConnection(ConnectionPool.java:185) ~[tomcat-jdbc-8.0.30.jar!/:na]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:126) ~[tomcat-jdbc-8.0.30.jar!/:na]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	at org.flywaydb.core.internal.util.jdbc.JdbcUtils.openConnection(JdbcUtils.java:50) ~[flyway-core-3.2.1.jar!/:na]
+2017-03-29T13:09:10.32-0400 [APP/PROC/WEB/0]OUT 	... 31 common frames omitted
+2017-03-29T13:09:10.34-0400 [APP/PROC/WEB/0]OUT Exit status 1
+2017-03-29T13:09:10.36-0400 [CELL/0]     OUT Exit status 0
+2017-03-29T13:09:10.37-0400 [CELL/0]     OUT Destroying container
+2017-03-29T13:09:10.40-0400 [API/6]      OUT Process has crashed with type: "web"
+2017-03-29T13:09:10.41-0400 [API/6]      OUT App instance exited with guid a4c2e9de-2ecb-4110-9ac5-5f77ac5e8f0c payload: {"instance"=>"", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"2 error(s) occurred:\n\n* 2 error(s) occurred:\n\n* Exited with status 1\n* cancelled\n* cancelled", "crash_count"=>4, "crash_timestamp"=>1490807350372618666, "version"=>"0042f385-0401-4fb4-86b0-11a55c92f99f"}
+2017-03-29T13:09:10.95-0400 [CELL/0]     OUT Successfully destroyed container
