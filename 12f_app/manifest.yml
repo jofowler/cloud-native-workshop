@@ -1,5 +1,5 @@
 applications:
-- name: jof12fapp
+- name: jof212fapp
   path: target/12f_app-1.0-SNAPSHOT.jar
   memory: 512M
   services:
