@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.github.jofowler.app.domain.model.StockItem;
@@ -70,5 +71,15 @@ public class StockResource {
 	@RequestMapping(value = "", method = RequestMethod.GET)
 	public Iterable<StockItem> items() {
 	    return stockItemRepository.findAll();
+	}
+	
+	@RequestMapping(value = "/ping", method = RequestMethod.GET)
+	    public String ping() {
+	        return "Ping";
+	    }
+	
+	@RequestMapping(value = "/get-env", method = RequestMethod.GET)
+	public String getEnv(@RequestParam String env) {
+	    return "Env" + " " + environment.getProperty(env);
 	}
 }
