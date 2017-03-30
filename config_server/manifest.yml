@@ -1,5 +1,5 @@
 applications:
-- name: CONFIG_APP_NAME
+- name: jofconfigserver
   path: target/config_server-1.0-SNAPSHOT.jar
   memory: 512M
   env:
